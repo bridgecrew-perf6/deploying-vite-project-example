@@ -1,5 +1,7 @@
+import { defineConfig } from 'vite';
+
 // vite.config.js
-export default {
-  // config options
-  base: '/<REPO>/',
-};
+// https://vitejs.dev/config/
+export default defineConfig({
+  base: '/threejs-scroll-animation-demo/',
+});
